@@ -1,2 +1,3 @@
-# frontend-projects
-My frontend projects using HTML, CSS, JS
+# Calculator Project
+
+Live Demo: https://jeevancaluculatoor.netlify.app/
