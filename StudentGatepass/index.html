@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Gate Pass</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>Student Gate Pass Management System</h1>
+<h3 class="owner">Project By: Jeevan</h3>
+
+<!-- Form -->
+<label>Student Name</label>
+<input type="text" id="studentName" placeholder="Enter Student Name"><br><br>
+
+<label>Roll Number</label>
+<input type="text" id="rollNumber" placeholder="Enter Roll Number"><br><br>
+
+<label>Department</label>
+<input type="text" id="department" placeholder="Enter Department"><br><br>
+
+<label>Reason</label>
+<input type="text" id="reason" placeholder="Reason"><br><br>
+
+<label>Date of Birth</label>
+<input type="date" id="date"><br><br>
+
+<button id="generateBtn" onclick="generate()">Generate Gate Pass</button><br><br>
+
+<!-- Search -->
+<label>Search by Roll Number:</label>
+<input type="text" id="searchRoll" placeholder="Enter Roll Number">
+<button onclick="searchStudent()">Search</button>
+
+<h2>Gate Pass Records</h2>
+
+<table border="1" id="gatePassTable">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Roll Number</th>
+      <th>Department</th>
+      <th>Reason</th>
+      <th>Date</th>
+      <th>Generated On</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
